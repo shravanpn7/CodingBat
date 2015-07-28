@@ -8,3 +8,7 @@ __author__ = 'Shravan Papanaidu'
 
 def extra_end (str):
     length = len(str)
+    extra = str[length-2:]
+    return extra*3
+
+print extra_end("momim")
