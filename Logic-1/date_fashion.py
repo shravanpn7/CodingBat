@@ -8,6 +8,7 @@ __author__ = 'Shravan Papanaidu'
 # date_fashion(5, 5) ? 1
 
 def date_fashion(you,date):
+    #The order of the if statements is significant -- the 0 result case takes precedence over the other cases, so that if statement comes first.
     if you <=2 or date <=2:
         return 0
     elif you >= 8 or date >=8:
