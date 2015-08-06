@@ -8,3 +8,4 @@ __author__ = 'Shravan Papanaidu'
 # no_teen_sum(2, 1, 14) ? 3
 
 def no_teen_sum(a,b,c):
+    sum =0
